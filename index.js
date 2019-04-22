@@ -75,3 +75,30 @@ function findTheCheese (foods) {
 // 	}
 // 	return "no cheese!"; // returns "no cheese!" if it doesn't find any cheese :(
 // }
+
+
+
+
+
+
+function wordsThatStartWithB(words){
+  var arr = []
+  for (var i = 0; i < words.length; i++) {
+    if (words[i].startsWith("b")) {
+      arr.push(words[i])
+    }
+  }
+  return arr
+}
+
+// "eric".startsWith("b") => false
+// "brian".startsWith("b") => true
+wordsThatStartWithB(['banana', 'cheddar', 'orange']) // ['banana']
+wordsThatStartWithB(['brian', 'bobby', 'alex']) // ['brian', 'bobby']
+wordsThatStartWithB(['chase', 'chad', 'cher']) // []
+
+
+
+
+
+
