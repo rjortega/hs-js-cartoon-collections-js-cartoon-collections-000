@@ -1,6 +1,6 @@
 function dwarfRollCall(dwarves) {
   var arr = []
-  for (let i = 0; i < dwarves.length; i++){
+  for (let i = dwarves.length /2; i < dwarves.length; i++){
     arr.push(`${i+1}. ${dwarves[i]} `)
   }
   var listArr = arr.join("")
