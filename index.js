@@ -65,7 +65,7 @@ function findTheCheese (foods) {
 }
 
 // function findTheCheese (foods) {
-// 	var cheeses = ["cheddar", "gouda", "camembert"];
+// 	var cheeses = ["cheddar", "gouda", "camembert", "swiss"];
 // 	for (var i = 0; i < foods.length; i++) {
 // 		for (var j = 0; j < cheeses.length; j++) {
 // 			if ( cheeses[j]=== foods[i] ) {
